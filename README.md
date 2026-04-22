@@ -1,46 +1,53 @@
 # Film & Dizi Arşivi 🎬
 
-Professional Movie and Series Archive project built with modern .NET 9 features and elegant design.
+Modern .NET 9 özellikleri ve şık tasarımıyla inşa edilmiş profesyonel bir film ve dizi arşiv projesi.
 
-## 🚀 Features
+## 🚀 Özellikler
 
-- **Robust Architecture**: Built with .NET 9 MVC, Entity Framework Core, relying on Service Layer design patterns and Dependency Injection.
-- **Premium UI & Dark Mode**: Professional, modern aesthetics synced with device settings via `color-scheme`. It stores your preferences.
-- **Reporting & Data Export**: High-performance in-memory generation of Excel (ClosedXML) and PDF (QuestPDF) reports.
-- **Analytics Visualization**: Interactive Chart.js integration strictly bound to the Theme Engine variables.
-- **Accessibility & UX**: JavaScript ModalManager equipped with focus state maintenance and background scroll-locking capability. IFrame disposal pattern prevents background playback.
-- **Defensive Programming**: Complete request lifecycle managed safely via custom ExceptionHandlingMiddleware and comprehensive FluentValidation setups.
+- **Güçlü Mimari**: .NET 9 MVC ve Entity Framework Core kullanılarak, Servis Katmanı tasarım desenleri ve Bağımlılık Enjeksiyonu (DI) ile inşa edildi.
+- **Premium Arayüz & Koyu Tema**: `color-scheme` optimizasyonları sayesinde cihaz ayarlarıyla senkronize olan, profesyonel ve modern estetik. Kullanıcı tercihlerini hatırlar.
+- **Raporlama & Veri Dışa Aktarma**: ClosedXML ve QuestPDF ile yüksek performanslı, tamamen bellek üzerinden (in-memory) Excel ve PDF rapor üretimi.
+- **Görsel Analizler**: Tema motoruna tam uyumlu, CSS değişkenleriyle renk değiştiren interaktif Chart.js entegrasyonu.
+- **Erişilebilirlik & Kullanıcı Deneyimi**: Klavye odağını koruyan, sayfa kaydırmasını engelleyen (scroll-lock) ve iframe temizleme özelliğiyle arka planda ses çalmasını önleyen gelişmiş JavaScript ModalManager.
+- **Savunmacı Programlama**: FluentValidation ile veri doğrulama ve özel ExceptionHandlingMiddleware ile güvenli hata yönetimi.
 
-## 🛠 Tech Stack
+## 🛠 Teknoloji Yığını
 
 - **Framework**: C# .NET 9 ASP.NET Core MVC
-- **Database**: SQLite & EF Core 9
-- **Validation**: FluentValidation
-- **Exporting**: QuestPDF, ClosedXML
-- **Frontend**: HTML5, Vanilla JavaScript, CSS3 System Variables, Chart.js, Bootstrap 5
+- **Veritabanı**: SQLite & EF Core 9
+- **Doğrulama**: FluentValidation
+- **Dışa Aktarma**: QuestPDF, ClosedXML
+- **Frontend**: HTML5, Vanilla JavaScript, CSS3 Değişkenleri, Chart.js, Bootstrap 5
 
-## 📦 Installation
+## 📦 Kurulum
 
-To run this application locally, ensure you have the .NET 9 SDK installed.
+Bu projeyi yerelinizde çalıştırmak için .NET 9 SDK'nın yüklü olduğundan emin olun.
 
-1. Clone the repository:
+1. Projeyi klonlayın:
 ```bash
-git clone https://github.com/yourusername/filmdiziarsivi.git
+git clone https://github.com/taklaci59/filmdiziarsivi.git
 ```
-2. Navigate to the project directory:
+2. Proje dizinine gidin:
 ```bash
 cd filmdiziarsivi
 ```
-3. The database migrations and seeding run automatically on startup.
-4. Run the project:
+3. Veritabanı taşıma (migration) ve veri tohumlama (seeding) işlemleri başlangıçta otomatik olarak çalışacaktır.
+4. Projeyi çalıştırın:
 ```bash
 dotnet run
 ```
-5. Navigate to `https://localhost:XXXX` in your browser.
+5. Tarayıcınızda terminalde belirtilen adresi (örneğin `http://localhost:5193`) açın.
 
-## 📸 Screenshots
+## 📸 Ekran Görüntüleri
 
-*Screenshots will be uploaded here via automation pipeline.*
+### Ana Sayfa (Açık Tema)
+![Açık Tema](docs/screenshots/dashboard_light_mode_1776857492748.png)
+
+### Ana Sayfa (Koyu Tema)
+![Koyu Tema](docs/screenshots/dashboard_dark_mode_1776857496274.png)
+
+### Fragman Modalı
+![Fragman Modalı](docs/screenshots/trailer_modal_matrix_1776857506222.png)
 
 ---
-> **Developer:** Architected by Antigravity AI for Portfolio Excellence.
+> **Geliştirici:** **Kıvanç** - Antigravity AI Tarafından Portfolyo Mükemmelliği İçin Tasarlandı.
