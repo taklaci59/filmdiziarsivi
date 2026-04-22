@@ -50,4 +50,4 @@ dotnet run
 ![Fragman Modalı](docs/screenshots/trailer_modal_matrix_1776857506222.png)
 
 ---
-> **Geliştirici:** **Kıvanç** - Antigravity AI Tarafından Portfolyo Mükemmelliği İçin Tasarlandı.
+> **Geliştirici:** **Kıvanç** -  Tarafından Okul Projesi İçin Tasarlandı.
