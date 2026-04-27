@@ -55,5 +55,5 @@ dotnet run
 Bu proje MIT lisansı ile lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakabilirsiniz.
 
 ---
-> **Geliştirici:** **Kıvanç** - Antigravity AI Tarafından Portfolyo Mükemmelliği İçin Tasarlandı.
+> Developed with ❤️ by taklaci59
 
