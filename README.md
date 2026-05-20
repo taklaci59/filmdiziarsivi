@@ -1,5 +1,7 @@
 # 🎬 Film & Dizi Arşivi
 
+![Dashboard ve İstatistikler](screenshots/dashboard.png)
+
 Kişisel film ve dizi koleksiyonunu yönetebileceğin, izleme durumunu takip edebileceğin ve puanlama yapabileceğin kapsamlı bir arşiv sistemi.
 
 ## 🚀 Özellikler

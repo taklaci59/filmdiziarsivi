@@ -21,6 +21,10 @@
 <div class="premium-card">
     <div class="d-flex justify-content-between align-items-center mb-4">
         <h4 class="m-0"><i class="bi bi-collection-play me-2"></i> Film & Dizi Listesi</h4>
+        <div class="d-flex gap-2">
+            <a href="@Url.Action("ExportExcel", "Home")" class="btn btn-sm btn-success"><i class="bi bi-file-earmark-excel me-1"></i> Excel İndir</a>
+            <a href="@Url.Action("ExportPdf", "Home")" class="btn btn-sm btn-danger"><i class="bi bi-file-earmark-pdf me-1"></i> PDF İndir</a>
+        </div>
     </div>
     <div class="table-responsive">
         <table class="table table-hover align-middle">
